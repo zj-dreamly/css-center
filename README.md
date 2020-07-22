@@ -81,3 +81,29 @@
 
 - display属性的值有关table实现等高布局效果
 - padding + margin属性实现等高布局效果
+
+### CSS3多列布局
+
+#### column
+
+- column-count：定义列的数量或者允许的最大列数
+  - auto：默认值用于表示列的数量由其他CSS属性决定
+  - number：必须是正整数，用于表示列的数量
+- column-width：定义列的宽度或者列的最小宽度
+  - auto：默认值用于表示列的宽度由其他CSS属性决定
+  - number：必须是正整数，用于表示列的宽度
+
+#### column-gap
+
+column-gap属性用于设置列与列之间的间距，该属性需要为多列显示时的元素设置
+
+- normal：用于表示使用浏览器的默认间距，默认为1em
+- length：必须是正整数，用于定义列与列之间的间距
+
+#### column-rule
+
+column-rule用于列与列之间的边框，包括宽度，边框颜色以及样式
+
+- column-rule-width：用于表示列与列之间的边框的宽度
+- column-rule-color：用于表示列与列之间的边框颜色
+- column-rule-style：用于表示列与列之间的边框样式

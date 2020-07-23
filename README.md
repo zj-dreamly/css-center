@@ -107,3 +107,21 @@ column-rule用于列与列之间的边框，包括宽度，边框颜色以及样
 - column-rule-width：用于表示列与列之间的边框的宽度
 - column-rule-color：用于表示列与列之间的边框颜色
 - column-rule-style：用于表示列与列之间的边框样式
+
+#### column-span
+
+column-span表示一个列元素是否跨列
+
+- none：表示元素不跨列
+- all：表示元素跨所有列
+
+#### column-fill
+
+column-fill属性定义列的高度是否由内容决定，还是统一高度
+
+- auto：默认值，用于表示列的高度由内容决定
+- balance：用于表示列的高度根据内容最多的一列高度为准
+
+### 全屏布局
+
+全屏布局是指HTML页面铺满整个浏览器窗口，并且没有滚动条，还可以随着浏览器的大小变化而变化
